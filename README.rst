@@ -1,16 +1,20 @@
 ===========
 DataReducer
 ===========
+
 :Info: DataReducer is an python tool for easily handling data.
+
 :Repository: https://github.com/shinrel22/data_reducer
+
 :Author: Tri Nguyen (https://github.com/shinrel22)
+
 :Maintainer: Tri Nguyen (https://github.com/shinrel22)
+
 
 Installation
 ============
-```
-pipenv install python-data-reducer
-```
+
+``pipenv install python-data-reducer``
 
 Examples
 ========
