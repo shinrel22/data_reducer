@@ -103,3 +103,6 @@ class DataReducer(object):
         for field in fields:
             result = self._copy(self.data, field, result)
         return result
+
+
+VERSION = (0, 0, 2)
