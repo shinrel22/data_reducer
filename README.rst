@@ -44,7 +44,9 @@ Some simple examples of what DataReducer can do:
             {'content': '2', 'id': '2', 'locale': 'en', 'name': 'B'}
         ]
     }
-    
+
+    # define fields those you want to keep,
+    # use "." to separate nested objects
     >>> only_fields = [
         'id',
         'translations.id',
@@ -58,7 +60,7 @@ Some simple examples of what DataReducer can do:
     ]
     
     >>> DataReducer(data=origin_data, include_fields=only_fields).run()
-    
+    # your beautiful result
     {
         'id': '1',
         'translations': [
