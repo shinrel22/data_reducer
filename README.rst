@@ -11,6 +11,10 @@ DataReducer
 :Maintainer: Tri Nguyen (https://github.com/shinrel22)
 
 
+WARNING
+============
+THIS REPO IS NO LONGER MAINTENAINCE, PLEASE MOVE TO https://github.com/shinrel22/python_dict_filter
+
 Installation
 ============
 
